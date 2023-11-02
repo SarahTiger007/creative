@@ -6,6 +6,10 @@
      background-color: #33264E;
      color: aliceblue;
      text-size-adjust: 3rm;
+     font-family: Muli;
+     /* Le logo utilise **Vampiro One** - Les titres utilisent **Playfair Display** - Le texte est en **Muli** / **Mulish** - Ce sont des Google Font - La taille n'a pas d' importance tant que vous respectez l'échelle établie dans la maquette. */
+     /* Playfair Display */
+     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
  }
 
  section.header {
