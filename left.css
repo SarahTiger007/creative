@@ -1,0 +1,135 @@
+.articles-section {
+    margin: auto;
+    display: flex;
+    margin-top: 8rem;
+    width: 1200px;
+}
+
+/*============ section article left===========*/
+.left-container {
+    width: 800px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.Article {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    background: color(bg-article);
+    margin-bottom: 2rem;
+    margin-right: 70rem;
+    box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.article-photo {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*============ texte article description===========*/
+.article-description h1 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    color: white;
+}
+
+/*============ . 1 article icons===========*/
+.img-icons img {
+    object-fit: cover;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    display: inline-flex;
+    left: 65%;
+}
+
+/*============ . 1 article =texte===========*/
+.article-description {
+    width: 60%;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    font-family: font-family(titre);
+}
+
+p {
+
+    font-size: 0.8rem;
+    color: white;
+    line-height: 16px;
+    margin-top: 1rem;
+    font-family: "Mulish";
+    font-size: 1rem;
+    color: whitesmoke;
+    line-height: 28px;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 16px;
+    color: white;
+}
+
+/*============ . 1 article =writter img===========*/
+.img-writer img {
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px 10px 4px 8px;
+}
+
+/*============ . 1 article =writter texte===========*/
+.writer-x h5 {
+    color: white;
+}
+
+.date {
+    display: inline-flex;
+}
+
+.img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.article-description .img-writer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 25px;
+    height: values(height-image);
+}
+
+/*============ . img article left Section ============*/
+img {
+    width: 80%;
+    height: 80%;
+}
+
+/*============ . boutton Section ============*/
+button {
+    display: inline-flex;
+    padding: 16px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FF7E8E;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: #FF6071;
+    border: 1px solid;
+    border: #1d1515;
+    position: relative;
+    margin: 16px;
+    justify-content: center;
+    left: 65%;
+}
+
+/*============ . Blogs Article ============*/

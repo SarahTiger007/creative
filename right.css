@@ -1,0 +1,275 @@
+/*============ . Blogs Article ============*/
+/*============ . Blogs Article Right============*/
+aside {
+    max-width: 332px;
+}
+
+.right-container {
+    width: 40%;
+    margin-left: 3rem;
+    height: 130px;
+
+}
+
+/*========= . Blogs recents-post Right==========*/
+.Recent-Posts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #33264E;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    justify-content: right;
+    max-width: 300px;
+    margin: 30px;
+    box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+    z-index: 11;
+}
+
+.Posts-photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/*============ texte post description===========*/
+/*========= . Blogs recents-post1 Right==========*/
+.Post-description {
+    width: 60%;
+    margin-left: -0.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Post-description p {
+    font-family: "Muli";
+    font-size: 0.8rem;
+    color: color(texte);
+    line-height: 16px;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+/*============ . 2 post =writter1 img===========*/
+.writer1 h3 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: -0.33em;
+    margin-block-end: -0.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.Posts-photo img {
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+}
+
+.writer1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*============ . Blogs social profiles ============*/
+.Social-Profiles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    justify-content: right;
+    /*height: 370px;*/
+    max-width: 300px;
+    margin: 30px;
+    z-index: 11;
+}
+
+/*============ . Blogs social twitter ============*/
+.Twitter-texte {
+    width: 100%;
+    background: #63cdf1;
+    /* display: flex; */
+    align-items: center;
+}
+
+.Twitter-texte h6 {
+    line-height: 10px;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    padding-left: 2rem;
+    font-family: "Mulish";
+}
+
+.Twitter-texte h2 {
+    color: whitesmoke;
+    padding-left: 2rem;
+    font-family: "Playfair Display";
+    font-size: 16px;
+}
+
+/*============ . icons twitter ============*/
+/*============ . Blogs social facebook ============*/
+.Facebook-texte h6 {
+    line-height: 10px;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    padding-left: 2rem;
+    font-family: "Mulish";
+}
+
+.Facebook-texte h2 {
+    color: whitesmoke;
+    padding-left: 2rem;
+    font-family: "Playfair Display";
+    font-size: 16px;
+}
+
+/*============ . Blogs social instagram ============*/
+.Instagram-texte h6 {
+    line-height: 10px;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    padding-left: 2rem;
+    font-family: "Mulish";
+}
+
+.Instagram-texte h2 {
+    color: whitesmoke;
+    padding-left: 2rem;
+    font-family: "Playfair Display";
+    font-size: 16px;
+}
+
+/*============ . Blogs categorie  ============*/
+.contact-twitter {
+    color: #63CDF1;
+    margin: 10px;
+}
+
+/*======= . Blogs social facebook ==========*/
+.Facebook-texte {
+    background: #507cbe;
+    width: 100%;
+}
+
+/*============ . Blogs social instagram ============*/
+.Instagram-texte {
+    background: #d62976;
+    width: 100%;
+}
+
+.Pinterest-texte {
+    background: #ee3e52;
+}
+
+.Social-Profiles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    justify-content: right;
+    height: 100px;
+    max-width: 300px;
+    margin: 30px;
+}
+
+/*============ . Blogs Categorie bubulles ============*/
+/*============ . Blogs advertissing ============*/
+.Article-x {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background: color(bg-article);
+    margin-bottom: 2rem;
+    margin-right: 70rem;
+    box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.article-photo-x {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*============ . circle Section ============*/
+.article-description h2::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #27CC81;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin: 2px 8px 2px 0;
+}
+
+/*============ . circle Section ============*/
+.writer-x h5::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #ee3e52;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-left: 0.8rem;
+    margin: 2px 10px 4px 8px;
+    color: #fff;
+}
+
+/*============ . circle Section ============*/
+h3::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #EE3E52;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin: 2px 8px 2px 0;
+}
+
+/*============ . circle Section ============*/
+/*============ . Blogs Categorie bubulles ============*/
+.Cat-1 h6::before {
+    background-color: #673AB7;
+}
+
+.Cat-2 h6::before {
+    background-color: #5567da;
+}
+
+.Cat-3 h6::before {
+    background-color: #1e88e5;
+    display: inline-block;
+}
+
+.Cat-4 h6::before {
+    background-color: #27CC81;
+}
+
+.Cat-5 h6::before {
+    background-color: #38c4d1;
+}
+
+.Cat-6 h6::before {
+    background-color: #e91e63;
+}
+
+.Section-Categories h6::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin: 0 8px 2px 0;
+    font-family: "Muli";
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}

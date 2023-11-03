@@ -1,0 +1,237 @@
+/*============ .ICONS footer=========*/
+.contact {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    /*============ .ICONS twitter==========*/
+    /*============ .ICONS facebook==========*/
+    /*============ .ICONS instagram==========*/
+    /*============ .ICONS pinterest==========*/
+}
+
+.contact i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: "Fontawesome" !important;
+    font-style: normal;
+}
+
+.contact-twitter {
+    color: color-icon(twitter);
+}
+
+.contact .contact-twitter {
+    color: #63CDF1;
+    margin: 10px;
+}
+
+.contact .icon-T {
+    margin: 0 1rem 1rem 0;
+}
+
+.contact-facebook {
+    color: color-icon(facebook);
+}
+
+.contact .contact-facebook {
+    color: #507cbe;
+    margin: 10px;
+}
+
+.contact .icon-F {
+    margin: 0 1rem 1rem 0;
+}
+
+.contact .contact-pinterest {
+    color: #ee3e52;
+    margin: 10px;
+}
+
+.contact .contact-facebook {
+    color: #507CBE;
+}
+
+.contact-instagram {
+    color: color-icon(instagram);
+}
+
+.contact .contact-instagram {
+    color: #D62976;
+}
+
+.contact .contact-instagram {
+    color: #D62976;
+    color: #d62976;
+    margin: 10px;
+}
+
+.contact .icon-I {
+    margin: 0 1rem 1rem 0;
+}
+
+.contact-pinterest {
+    color: color-icon(pinterest);
+}
+
+.line-left {
+    font-family: "Playfair Display";
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.line_left h4::after {
+    content: "";
+    width: 9rem;
+    height: 2px;
+    background-color: #EE3E52;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.contact i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: "Fontawesome" !important;
+    font-style: normal;
+}
+
+.contact-pinterest {
+    color: #ee3e52;
+    margin: 10px;
+}
+
+/*============ .  icon  bloc footer============*/
+.footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.icon-f {
+    place-items: center;
+    font-family: "Font Awesome 5 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    margin: 0 1rem 1rem 0;
+}
+
+.contact-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.footer-left .footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span {
+    color: color(texte);
+    font-size: 1rem;
+}
+
+.left-contact .footer-icons {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.contact i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: "Fontawesome" !important;
+    font-style: normal;
+}
+
+.btn-rect {
+    background: linear-gradient(120deg, color(gradient1), color(gradient2));
+    padding: 10px 20px;
+    box-shadow: 0 0 0 0 black;
+    transform: scale(1);
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-rect:active,
+.btn-rect:visited,
+.btn-rect:hover {
+    color: white;
+}
+
+.twitter::before {
+    content: "";
+    font-size: 1.5em;
+}
+
+.instagram::before {
+    content: "";
+    font-size: 1.5em;
+}
+
+.contact-instagram::before {
+    content: "";
+    font-size: 1.5em;
+    color: #D62976;
+}
+
+.articles-section {
+    margin: auto;
+    display: flex;
+    margin-top: 8rem;
+    width: 1200px;
+}
