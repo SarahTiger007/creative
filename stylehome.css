@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
 body {
   background-color: #33264E;
   place-items: center;
@@ -449,6 +450,7 @@ h3::before {
   margin: 2px 8px 2px 0;
   font-family: "Muli";
 }
+
 .category.Cat-2 h6::before {
   background-color: #5567da;
   margin: 2px 8px 2px 0;
@@ -460,6 +462,7 @@ h3::before {
   margin: 2px 8px 2px 0;
   font-family: "Muli";
 }
+
 .category.Cat-3 h6::before {
   background-color: #1e88e5;
   margin: 2px 8px 2px 0;
@@ -471,6 +474,7 @@ h3::before {
   margin: 2px 8px 2px 0;
   font-family: "Muli";
 }
+
 .category.Cat-4 h6::before {
   background-color: #27cc81;
   margin: 2px 8px 2px 0;
@@ -482,6 +486,7 @@ h3::before {
   margin: 2px 8px 2px 0;
   font-family: "Muli";
 }
+
 .category.Cat-6 h6::before {
   background-color: #e91e63;
   margin: 2px 8px 2px 0;
@@ -493,6 +498,7 @@ h3::before {
   margin: 2px 8px 2px 0;
   font-family: "Muli";
 }
+
 .category.Cat-5 h6::before {
   background-color: #38c4d1;
   margin: 2px 8px 2px 0;
@@ -761,6 +767,7 @@ a {
   font-style: normal;
   margin: 0 15px;
 }
+
 a:hover {
   color: color(link);
 }
@@ -1110,53 +1117,67 @@ span {
   /*============ .ICONS instagram==========*/
   /*============ .ICONS pinterest==========*/
 }
+
 .contact i {
   font-size: 1.5rem;
   padding: 1rem;
   font-family: "Fontawesome" !important;
   font-style: normal;
 }
+
 .contact-twitter {
   color: color-icon(twitter);
 }
+
 .contact .contact-twitter {
   color: #63CDF1;
   margin: 10px;
 }
+
 .contact .icon-T {
   margin: 0 1rem 1rem 0;
 }
+
 .contact-facebook {
   color: color-icon(facebook);
 }
+
 .contact .contact-facebook {
   color: #507cbe;
   margin: 10px;
 }
+
 .contact .icon-F {
   margin: 0 1rem 1rem 0;
 }
+
 .contact .contact-pinterest {
   color: #ee3e52;
   margin: 10px;
 }
+
 .contact .contact-facebook {
   color: #507CBE;
 }
+
 .contact-instagram {
   color: color-icon(instagram);
 }
+
 .contact .contact-instagram {
   color: #D62976;
 }
+
 .contact .contact-instagram {
   color: #D62976;
   color: #d62976;
   margin: 10px;
 }
+
 .contact .icon-I {
   margin: 0 1rem 1rem 0;
 }
+
 .contact-pinterest {
   color: color-icon(pinterest);
 }
@@ -1290,7 +1311,10 @@ span {
   color: white;
   text-decoration: none;
 }
-.btn-rect:active, .btn-rect:visited, .btn-rect:hover {
+
+.btn-rect:active,
+.btn-rect:visited,
+.btn-rect:hover {
   color: white;
 }
 
@@ -1475,4 +1499,101 @@ div {
   margin-top: 20px;
 }
 
-/*# sourceMappingURL=main.css.map */
+.photo-carousel {
+  background-image: url(./image/home.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: url(./image/home.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 1600px;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+
+.nav-links ul {
+
+
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 200px;
+}
+
+.nav-links li {
+  margin: .3rem;
+}
+
+.articles-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.articles-section .left-container {
+  max-width: 800px;
+  margin-right: 3rem;
+}
+
+.Article {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #362953;
+  margin-bottom: 2rem;
+}
+
+.Article .article-photo {
+  width: 40%;
+  height: 300px;
+}
+
+.article-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.Article .article-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem 0;
+}
+
+.Article p {
+  font-family: "Mulish";
+  font-size: 1rem;
+  color: whitesmoke;
+  line-height: 28px;
+  margin-top: 1rem;
+}
