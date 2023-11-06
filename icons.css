@@ -1,0 +1,220 @@
+/*============ .ICONS SECTION HEADER==========*/
+/*============ .ICONS facebook==========*/
+/*============ .ICONS twiter==========*/
+/*============ .ICONS instagram==========*/
+/*============ .ICONS pinterest==========*/
+/*============ .ICONS reddit==========*/
+
+.btn-circle {
+    border-radius: 100%;
+    background-color: rgba(252, 56, 56, 0.3);
+    flex-shrink: 0;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 0 0 black;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.btn-circle:hover {
+    animation: 3s linear 1s infinite running slidein;
+}
+
+.icon {
+    place-items: center;
+    font-family: "Font Awesome 5 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    padding: 15px 20px;
+    display: inline-flex;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    left: 55%;
+}
+
+/*============ .ICONS brand==========*/
+.brand {
+    font-family: "Font Awesome 5 Brands";
+}
+
+/*============ .ICONS social=header=========*/
+.facebook::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+.twitter::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+.instagram::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+.pinterest::before {
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+.pinterest::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+/*============ .ICONS left==========*/
+/*============ .ICONS search==========*/
+.search::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+/*============ .  icon  bloc article left============*/
+.comment::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+.share::before {
+    content: "";
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+/*============ .  icon  social profies right============*/
+.img-icons1 {
+    width: 30%;
+    height: 30px;
+    display: inline-flex;
+    padding: 15px 20px;
+    border: none;
+    position: relative;
+    /* margin: 20px; */
+    justify-content: center;
+    left: 10%;
+    /* top: 8%; */
+    bottom: 76px;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 10rem;
+    font-family: "Fontawesome" !important;
+    font-style: normal;
+    text-align: end;
+}
+
+/*============ .ICONS twitter=right=========*/
+.fa-twitter::before {
+    content: "";
+}
+
+/*============ .ICONS facebook==========*/
+.facebook1::before {
+    font-size: 1.5em;
+    color: #EE3E52;
+}
+
+/*============ .ICONS instagram=right=========*/
+.fa-instagram:before {
+    content: "";
+}
+
+.icon-I {
+    color: #EE3E52;
+}
+
+.icon-F {
+    color: #507CBE;
+}
+
+/*============ .ICONS footer=========*/
+.contact {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    /*============ .ICONS twitter==========*/
+    /*============ .ICONS facebook==========*/
+    /*============ .ICONS instagram==========*/
+    /*============ .ICONS pinterest==========*/
+}
+
+.contact i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: "Fontawesome" !important;
+    font-style: normal;
+}
+
+.contact-twitter {
+    color: color-icon(twitter);
+}
+
+.contact .contact-twitter {
+    color: #63CDF1;
+    margin: 10px;
+}
+
+.contact .icon-T {
+    margin: 0 1rem 1rem 0;
+}
+
+.contact-facebook {
+    color: color-icon(facebook);
+}
+
+.contact .contact-facebook {
+    color: #507cbe;
+    margin: 10px;
+}
+
+.contact .icon-F {
+    margin: 0 1rem 1rem 0;
+}
+
+.contact .contact-pinterest {
+    color: #ee3e52;
+    margin: 10px;
+}
+
+.contact .contact-facebook {
+    color: #507CBE;
+}
+
+.contact-instagram {
+    color: color-icon(instagram);
+}
+
+.contact .contact-instagram {
+    color: #D62976;
+}
+
+.contact .contact-instagram {
+    color: #D62976;
+    color: #d62976;
+    margin: 10px;
+}
+
+.contact .icon-I {
+    margin: 0 1rem 1rem 0;
+}
+
+.contact-pinterest {
+    color: color-icon(pinterest);
+}

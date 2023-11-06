@@ -5,14 +5,9 @@
 
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 30px 0;
   max-width: 1200px;
@@ -20,14 +15,8 @@ header {
 }
 
 header .social-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -36,31 +25,16 @@ header img {
 }
 
 .nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-left: 5rem;
   margin-bottom: 2rem;
 }
 
 .nav-links ul {
-
-
-
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 200px;
 }
@@ -87,7 +61,6 @@ header img {
   margin: 0 auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
@@ -96,7 +69,6 @@ header img {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -126,8 +98,6 @@ header img {
 .articles-section {
   max-width: 1200px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 3rem;
 }
@@ -140,11 +110,7 @@ header img {
 
 .articles-section .first-article {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   background: #362953;
   margin-bottom: 2rem;
@@ -160,7 +126,6 @@ header img {
 .articles-section img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -190,15 +155,12 @@ aside .posts {
 .post {
   width: 100%;
   margin-bottom: .5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .post img {
   width: 100px;
   height: 100px;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -211,13 +173,8 @@ aside .posts {
 }
 
 .categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   font-size: 1rem;
   font-family: "Mulish";
@@ -372,15 +329,9 @@ button {
 .nav-bottom {
   max-width: 1200px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -400,14 +351,8 @@ button {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 3rem;
 }
@@ -479,13 +424,8 @@ footer {
   height: 10vh;
   max-width: 1200px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border-top: 1px solid #777777;
 }
@@ -509,7 +449,6 @@ footer .top::after {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -607,24 +546,14 @@ h6::before {
   height: 10px;
   background-color: #EE3E52;
   display: inline-block;
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   margin-right: 1.5rem;
 }
 
 .writer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
   margin-top: 1rem;
@@ -688,7 +617,6 @@ a {
   place-items: center;
   font-family: "Font Awesome 5 Free";
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-variant: normal;
   font-weight: 900;
