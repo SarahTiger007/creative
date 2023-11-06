@@ -552,7 +552,7 @@ footer .top::after {
 }
 
 /*============ . HEADER===========*/
-header {
+/* header {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -570,9 +570,9 @@ header {
   flex-wrap: wrap;
   align-content: center;
   width: 33%;
-}
+} */
 
-.caractère {
+/* .caractère {
   width: 58%;
   font-family: "Vampiro One";
   font-style: normal;
@@ -589,7 +589,7 @@ header {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-}
+} */
 
 .search-icon {
   display: flex;
@@ -769,21 +769,21 @@ a {
 }
 
 a:hover {
-  color: color(link);
+  color: greenyellow;
 }
 
-.header {
+/* .header {
   display: flex;
   flex-direction: row;
-}
+} */
 
-.search-icon {
+/* .search-icon {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   align-content: center;
   width: 10%;
-}
+} */
 
 /*============ .  footer  bloc navigation============*/
 .caractère-footer {
@@ -1170,7 +1170,7 @@ span {
 
 .contact .contact-instagram {
   color: #D62976;
-  color: #d62976;
+
   margin: 10px;
 }
 
@@ -1215,8 +1215,7 @@ span {
 
 /*============ .  icon  bloc footer============*/
 .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1243,30 +1242,17 @@ span {
 }
 
 .contact-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .footer-left .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -1278,19 +1264,14 @@ span {
 }
 
 span {
-  color: color(texte);
+  color: royalblue;
   font-size: 1rem;
 }
 
 .left-contact .footer-icons {
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 10px;
 }
@@ -1513,44 +1494,30 @@ div {
 }
 
 .nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-left: 5rem;
   margin-bottom: 2rem;
 }
 
+/* 
 .nav-links ul {
-
-
-
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 200px;
 }
 
 .nav-links li {
   margin: .3rem;
-}
+} */
 
 .articles-section {
   max-width: 1200px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   margin-top: 3rem;
 }
@@ -1565,8 +1532,7 @@ div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+
   justify-content: center;
   background: #362953;
   margin-bottom: 2rem;
