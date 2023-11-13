@@ -36,7 +36,7 @@ header {
     /* flex-direction: row;
     flex-wrap: wrap; */
     align-content: center;
-    width: 33%;
+    width: 40%;
 }
 
 /*============ . logo===========*/
@@ -89,12 +89,13 @@ header {
     display: inline-block;
 }
 
+/* 
 .ligne-header {
     width: 1200px;
     height: 1px;
     background-color: #777777;
     margin: 3rem auto;
-}
+} */
 
 
 /*============ .ICONS SECTION HEADER==========*/
@@ -107,6 +108,7 @@ nav.navbar {
     text-align: center;
     margin: 50px 0 0 0;
     text-decoration: none;
+    list-style: none;
 }
 
 .nav-links {
@@ -117,6 +119,7 @@ nav.navbar {
     margin-bottom: 2rem;
     text-decoration: none;
     text-transform: capitalize;
+    list-style: none;
 }
 
 .nav-links ul {
@@ -125,11 +128,13 @@ nav.navbar {
     align-items: center;
     width: 200px;
     text-decoration: none;
+    list-style: none;
 }
 
 .nav-links li {
     margin: .3rem;
     text-decoration: none;
+    list-style: none;
 }
 
 a {
@@ -147,12 +152,15 @@ a {
     font-size: .9rem;
     font-weight: bold;
     letter-spacing: .2rem;
+    list-style: none;
+
 }
 
 
 a:hover {
     color: rgba(252, 56, 56, 0.3);
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -174,7 +182,7 @@ a:hover {
     display: grid;
     place-items: center;
     box-shadow: 0 0 0 0 black;
-    transform: scale(1);
+    /* transform: scale(1); */
     cursor: pointer;
 }
 

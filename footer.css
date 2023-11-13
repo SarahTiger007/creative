@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
+    list-style: none;
     /*============ .ICONS twitter==========*/
     /*============ .ICONS facebook==========*/
     /*============ .ICONS instagram==========*/
@@ -34,7 +35,7 @@
 }
 
 .contact-facebook {
-    color: color-icon(facebook);
+    color: #507cbe;
 }
 
 .contact .contact-facebook {
@@ -51,13 +52,13 @@
     margin: 10px;
 }
 
-.contact .contact-facebook {
+/* .contact .contact-facebook {
     color: #507CBE;
-}
+} */
 
-.contact-instagram {
+/* .contact-instagram {
     color: color-icon(instagram);
-}
+} */
 
 .contact .contact-instagram {
     color: #D62976;
@@ -65,7 +66,7 @@
 
 .contact .contact-instagram {
     color: #D62976;
-    color: #d62976;
+
     margin: 10px;
 }
 
@@ -73,9 +74,7 @@
     margin: 0 1rem 1rem 0;
 }
 
-.contact-pinterest {
-    color: color-icon(pinterest);
-}
+
 
 .line-left {
     font-family: "Playfair Display";
@@ -110,16 +109,13 @@
 
 /*============ .  icon  bloc footer============*/
 .footer-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
+
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+
     justify-content: center;
-    -ms-flex-wrap: wrap;
+
     flex-wrap: wrap;
 }
 
@@ -127,7 +123,7 @@
     place-items: center;
     font-family: "Font Awesome 5 Free";
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+
     font-style: normal;
     font-variant: normal;
     font-weight: 900;
@@ -138,30 +134,17 @@
 }
 
 .contact-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .footer-left .footer-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
+
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -179,13 +162,8 @@ span {
 
 .left-contact .footer-icons {
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 10px;
 }

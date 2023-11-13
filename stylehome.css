@@ -3,89 +3,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 
-body {
+/* body {
   background-color: #33264E;
   place-items: center;
-}
+} */
 
 /*============ section article===========*/
-.articles-section {
+/* .articles-section {
   margin: auto;
   display: flex;
   margin-top: 8rem;
   width: 1200px;
-}
+} */
 
 /*============ section article left===========*/
-.left-container {
+/* .left-container {
   width: 800px;
   margin-right: 3rem;
   margin-left: 3rem;
-}
+} */
 
-.Article {
+/* .Article {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: color(bg-article);
+
   margin-bottom: 2rem;
   margin-right: 70rem;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-}
+} */
 
-.article-photo {
+/* .article-photo {
   width: 40%;
   object-fit: cover;
-}
+} */
 
 /*============ texte article description===========*/
-.article-description h1 {
+/* .article-description h1 {
   font-family: "Playfair Display";
   font-size: 30px;
   color: white;
-}
+} */
 
 /*============ . 1 article icons===========*/
-.img-icons img {
+/* .img-icons img {
   object-fit: cover;
   position: relative;
   margin: 20px;
   justify-content: center;
   display: inline-flex;
   left: 65%;
-}
+} */
 
 /*============ . 1 article =texte===========*/
-.article-description {
+/* .article-description {
   width: 60%;
   margin-left: 1.5rem;
   padding: 1rem;
   font-family: font-family(titre);
-}
+} */
 
-p {
+/* p {
   font-family: font-family(texte);
   font-size: 0.8rem;
   color: white;
   line-height: 16px;
   margin-top: 1rem;
-}
+} */
 
-h2 {
+/* h2 {
   font-family: "Playfair Display";
   font-size: 16px;
   color: white;
-}
+} */
 
 /*============ . 1 article =writter img===========*/
-.img-writer img {
+/* .img-writer img {
   object-fit: cover;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   display: inline-block;
   margin: 2px 10px 4px 8px;
-}
+} */
 
 /*============ . 1 article =writter texte===========*/
 .writer-x h5 {
@@ -96,30 +96,30 @@ h2 {
   display: inline-flex;
 }
 
-.img img {
+/* .img img {
   object-fit: cover;
   width: 80%;
   height: 80%;
   border-radius: 50%;
   display: inline-block;
-}
+} */
 
-.article-description .writer-img {
+/* .article-description .writer-img {
   display: flex;
   align-items: center;
   justify-content: left;
   padding: 0 25px;
-  height: values(height-image);
-}
+
+} */
 
 /*============ . img article left Section ============*/
-img {
+/* img {
   width: 80%;
   height: 80%;
-}
+} */
 
 /*============ . boutton Section ============*/
-button {
+/* button {
   display: inline-flex;
   padding: 16px 20px;
   border: none;
@@ -135,7 +135,7 @@ button {
   margin: 16px;
   justify-content: center;
   left: 65%;
-}
+} */
 
 /*============ . Blogs Article ============*/
 /*============ . Blogs Article Right============*/
@@ -591,21 +591,16 @@ footer .top::after {
   font-weight: bold;
 } */
 
-.search-icon {
+/* .search-icon {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   align-content: center;
   width: 33%;
-}
+} */
 
 /*============ .LOGO ICONS===========*/
-.ligne-header {
-  width: 1200px;
-  height: 1px;
-  background-color: #777777;
-  margin: 3rem auto;
-}
+
 
 /*============ .MENU HEADER CARACTERE===========*/
 /*============ .SLIDER SECTION===========*/
@@ -1334,16 +1329,16 @@ span {
   color: white;
 }
 
-.Article-long {
+/* .Article-long {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: color(bg-article);
+ 
   margin-bottom: 2rem;
   margin-right: 70rem;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-}
-
+} */
+/* 
 .article-photo-long {
   width: 100%;
   object-fit: cover;
@@ -1353,11 +1348,11 @@ span {
   width: 60%;
   margin-left: 1.5rem;
   padding: 1rem;
-  font-family: font-family(titre);
-}
 
-p {
-  font-family: font-family(texte);
+} */
+
+/* p {
+
   font-size: 0.8rem;
   color: white;
   line-height: 16px;
@@ -1368,7 +1363,7 @@ h2 {
   font-family: "Playfair Display";
   font-size: 16px;
   color: white;
-}
+} */
 
 .img img {
   object-fit: cover;
@@ -1384,20 +1379,21 @@ h2 {
   height: 100%;
 }
 
-.img-writer img {
+/* .img-writer img {
   object-fit: cover;
   height: 30px;
   border-radius: 50%;
   display: inline-block;
-}
+} */
 
+/* 
 .article-description .writer-img {
   display: flex;
   align-items: center;
   justify-content: left;
   padding: 0 25px;
-  height: values(height-image);
-}
+ 
+} */
 
 .icon-f {
   place-items: center;
@@ -1425,7 +1421,7 @@ h2 {
   place-items: center;
   font-family: "Font Awesome 5 Free";
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+
   font-style: normal;
   font-variant: normal;
   font-weight: 900;
@@ -1493,14 +1489,6 @@ div {
   margin-bottom: 3rem;
 }
 
-.nav-links {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5rem;
-  margin-bottom: 2rem;
-}
 
 /* 
 .nav-links ul {
@@ -1514,52 +1502,36 @@ div {
   margin: .3rem;
 } */
 
-.articles-section {
+/* .articles-section {
   max-width: 1200px;
   margin: 0 auto;
-
   display: flex;
   margin-top: 3rem;
-}
+} */
 
-.articles-section .left-container {
+/* .articles-section .left-container {
   max-width: 800px;
   margin-right: 3rem;
-}
+} */
 
-.Article {
+/* .Article {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-
   justify-content: center;
   background: #362953;
   margin-bottom: 2rem;
-}
+} */
 
-.Article .article-photo {
-  width: 40%;
-  height: 300px;
-}
 
-.article-photo img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
 
-.Article .article-description {
-  width: 60%;
-  margin-left: 1.5rem;
-  padding: 1rem 0;
-}
 
-.Article p {
+
+
+
+/* .Article p {
   font-family: "Mulish";
   font-size: 1rem;
   color: whitesmoke;
   line-height: 28px;
   margin-top: 1rem;
-}
+} */
